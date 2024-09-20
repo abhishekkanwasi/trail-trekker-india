@@ -1,0 +1,87 @@
+#new-row-standard{
+	Display:none;margin-left:10px;
+}
+
+#new-row-luxury{
+	Display:none;padding-left:10px;margin-bottom:50px;
+}
+#amount{
+	background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;
+	color: #fff;margin-left:2%;padding:0.5px;padding-left:5px;padding-right:5px;
+}
+#amount:hover{
+	background-color:#37a73e;border-radius: 3px;border: 1px solid #37a73e;
+	color: #fff;padding:0.5px;margin-left:2%;padding-left:5px;padding-right:5px;
+}
+#amount1{
+	background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;
+	color: #fff;margin-left:2%;padding:0.5px;padding-left:5px;padding-right:5px;
+}
+#amount1:hover{
+	background-color:#37a73e;border-radius: 3px;border: 1px solid #37a73e;
+	color: #fff;padding:0.5px;margin-left:2%;padding-left:5px;padding-right:5px;
+}
+#amount2{
+	background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;
+	color: #fff;margin-left:2%;padding:0.5px;padding-left:5px;padding-right:5px;
+}
+#amount2:hover{
+	background-color:#37a73e;border-radius: 3px;border: 1px solid #37a73e;
+	color: #fff;padding:0.5px;margin-left:2%;padding-left:5px;padding-right:5px;
+}
+
+#demo{
+	margin-top:5px;padding:1px;
+}
+
+#demoLuxury{padding:.5px;
+
+}
+#are-you{
+	background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;
+	color: #fff;margin-left:2%;padding:0.5px;padding-left:5px;padding-right:5px;
+	
+}
+#yes{
+	width:60px;background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;
+	color: #fff;margin-left:2%;padding:0.5px;
+	padding-left:5px;padding-right:5px;margin-top:5px;
+}
+#yes:hover{
+	width:60px;background-color:#37a73e;border-radius: 5px;border: 1px solid #ff6219;
+	color: #fff;margin-left:2%;
+	padding:0.5px;padding-left:5px;padding-right:5px;margin-top:7px;margin-bottom:7px;
+
+}
+#buttonStandard{
+	
+	height:30px;background-color:#ff6219;color: #fff;border-radius: 5px;border: 1px solid #ff6219;
+	margin-top:10px;margin-bottom:10px;display:none;
+	}
+#buttonLuxury{
+	
+	height:30px;background-color:#ff6219;color: #fff;border-radius: 5px;border: 1px solid #ff6219;
+	margin-top:10px;margin-bottom:10px;display:none;
+	}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+	
+	#are-you{width:100%;
+	background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;color: #fff;margin-left:2%;padding:0.5px;padding-left:5px;padding-right:5px;
+	font-size:10px;margin-top:10px;margin-bottom:10px;
+}
+#yes{
+	width:60px;background-color:#ff6219;border-radius: 5px;border: 1px solid #ff6219;color: #fff;margin-left:2%;padding:0.5px;
+	padding-left:5px;padding-right:5px;margin-top:10px;margin-bottom:10px;
+}
+	
+	
+}

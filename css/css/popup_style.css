@@ -1,0 +1,151 @@
+
+/* Full-width input fields */
+.popup-content input[type=text], input[type=password], input[type=tel] ,input[type=email], select {
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  background: #fff;
+  color:black;
+}
+
+/* Add a background color when the inputs get focus */
+.popup-content input[type=text]:focus, input[type=password]:focus , input[type=tel]:focus ,input[type=email]:focus{
+  outline: none;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+ .Sendbtn-popup-detail {
+  color: white;
+  background-color:#ff6219;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  width: 50%;
+}
+.Sendbtn-popup-detail:hover {
+  opacity:1;
+    background-color:green;
+}
+
+/* Add padding to container elements */
+.popup_main_class .popup-content-container {
+  padding: 16px;
+
+}
+
+/* The Modal (background) */
+#popup_main_id {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: -webkit-fill-available; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background:rgba(0,0,0,0.7);
+  padding-top: 50px;
+
+}
+
+/* Modal Content/Box */
+.popup-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%;
+  height:Auto;/* Could be more or less, depending on screen size */
+  opacity: 100%;
+}
+
+.popup-content .popup-content-container p img {
+width: 25px;
+vertical-align: middle;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close-popup {
+float:right;
+padding: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 768px) {
+    .popup-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 90%;
+    height:Auto;/* Could be more or less, depending on screen size */
+  }
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+ .Sendbtn-popup-detail {
+     width: 100%;
+  }
+}
+
+#bottom-icon-container{
+   display:none; position:fixed; bottom:0px; Z-index:12; height: 80px; width:100%;overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+#bottom-icon-container-child a{
+        text-align: center;
+}
+#bottom-icon-container-child {
+           text-align-last: justify;
+         padding-right: 100px;
+         padding-left: 10px;
+}
+@media (max-width: 768px){
+    #bottom-icon-container-child {
+               text-align-last: justify;
+             padding-right: 130px;
+             padding-left: 10px;
+    }
+}
+@media (max-width: 400px){
+    #bottom-icon-container-child {
+               text-align-last: justify;
+             padding-right: 105px;
+             padding-left: 10px;
+    }
+}
+
+@media (max-width: 360px){
+    #bottom-icon-container-child {
+               text-align-last: justify;
+             padding-right: 95px;
+             padding-left: 10px;
+    }
+}
+
+@media (max-width: 468px){
+    #bottom-icon-container {
+        display: block;
+    }
+}
+@media (max-width: 768px){
+    #bottom-icon-container {
+        display: block;
+        
+    }
+}

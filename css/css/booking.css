@@ -1,0 +1,58 @@
+
+.styled-select.style_2{overflow: inherit;}
+.formError {color: #d71919e6;}
+.box
+{
+	width: 100%;
+	height: 100%;
+	border: 3px solid #e66a1f;
+}
+.inner-box
+{
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left:5px;
+	padding-right:25px;
+	border: 2px solid #e66a1f;
+}
+.heading
+{
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 5px;
+	background-color: #e66a1f;
+	color: #ffffff;
+}
+
+.reveal-if-active
+{
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+
+.form-area-wrap {display: none;}
+
+@media (max-width:767px) {
+.form-area-wrap {display: block;}
+}
+
+.showFormDataWrap {display: none;}
+
+
+.desktop-show {display: block;}
+
+@media (max-width:767px) {
+.desktop-show {display: none;}
+
+}
+
+.mobile-show {display: none;}
+
+@media (max-width:767px) {
+.mobile-show {display: block;}
+}

@@ -1,0 +1,94 @@
+.fc-time{
+        display : none;
+    }
+   .fc th {
+    text-align: center;
+    background-color: #ff6219;
+    color: white;
+   }
+   .fc-content{
+     cursor: pointer;  
+     font-size: .9em;
+     text-align: center;
+     
+   }
+   @media (max-width:767px) {
+   .fc-content{
+     cursor: pointer;  
+     font-size: .6em;
+     text-align: center;
+   }
+   }
+   .fc-day-grid-container.fc-scroller {
+    height: auto!important;
+    overflow-y: auto;
+}
+
+@media (max-width: 767px){
+    .fc-center h2 {
+    font-size: 20px!important;
+    }
+}
+
+ /*  addons */  
+   
+   #main_btn_book{ 
+    display: block;
+    color: white;
+    background: #ff6219;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100px;
+    margin-bottom: 20px;
+   }
+   
+   #main_calender_with_dates{
+       margin-top: 10px;
+    padding-bottom: 50px;
+   }
+   
+   
+   
+   .add-on-container input[type=checkbox]{
+    width: 20px;
+    height:20px;
+    margin-right: 5px;
+}
+
+#mainprice_without_addOn{
+    border: none;background-color: #ff6219;font-weight:700 ;font-size: 1.2em;
+}
+
+    #package-button-book-mini{
+                   display:none;
+    }
+    #package-button-dates-mini{
+                    display:none;
+    }
+
+@media (max-width:767px) {
+        #package-button-book-mini{
+        display:block;
+
+    }
+    #package-button-dates-mini{
+         display:block;
+    }
+    #package-button-book-desktop{
+        display:none;
+    }
+    #package-button-dates-desktop{
+        display:none;
+    }
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   

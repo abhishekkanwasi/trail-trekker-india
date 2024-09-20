@@ -1,0 +1,836 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: Poppins;
+  margin: 0;
+}
+
+/* Style the body */
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Poppins;
+  margin: 0;
+}
+
+.breadcrumb {
+  background-color: white;
+}
+
+.Tour_title_package {
+  font-size: 22px;
+}
+@media (max-width: 767px) {
+  .Tour_title_package {
+    font-size: 16px;
+  }
+}
+
+/* Slider  */
+.slider {
+  width: 100%;
+}
+
+.regular .slick-slide {
+  // margin: 20px 15px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 18px !important;
+  }
+  .slick-next,
+  .slick-prev {
+    padding-top: 5px !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 1;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+/* Slider End */
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+@media (max-width: 1202px) {
+  .flex-container > div {
+    font-size: 12px;
+  }
+
+  #package_top_section .card-body > div {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-mark {
+    .flex-container > div {
+      font-size: 10px;
+    }
+
+    #package_top_section .card-body > div {
+      font-size: 10px;
+    }
+  }
+}
+
+.text-dark b {
+  border-bottom: 2px solid #f7472e;
+}
+
+/*Main image package */
+
+.image-wrapper {
+  max-width: 3200px;
+  max-height: 1800px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.responsive-container {
+  width: 100%;
+  padding-bottom: 63.5%;
+  position: relative;
+}
+
+.image-wrapper img {
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.my-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tab-content p a {
+  color: black;
+  border-bottom: 2px solid #f7472e;
+}
+
+.tab-content h2 {
+  font-size: 22px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+/*  Contact us box below get whatsapp itenery detail */
+.customer-card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #fff;
+}
+.customer-card .contact-details {
+  display: flex;
+  padding: 10px;
+}
+.customer-card .contact-details .telephone-icon {
+  padding: 5px;
+}
+.customer-card .contact-details .details .questions {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.customer-card .contact-details .details .contact {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.customer-card .contact-details .details .number {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+#package_lead_form .form-control,
+#package_lead_form1 .form-control {
+  font-size: 12px;
+}
+#package_lead_form #NameHelp #package_lead_form1 #NameHelp {
+  font-size: 10px;
+}
+
+/*Main image package end*/
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  #Send_me_detailed_first .card-title {
+    font-size: 16px;
+  }
+  #package_lead_form input {
+    font-size: 10px;
+  }
+  #package_lead_form .private-policy {
+    font-size: 9px;
+  }
+}
+
+#pack_detail_card .card-price {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+#pack_detail_card #mainprice {
+  font-size: 30px;
+}
+
+#pack_detail_card .start-from {
+  font-size: 10px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.top-mark {
+  background-color: #f7472e;
+  color: white;
+  padding: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .top-mark {
+    font-size: 10px;
+  }
+}
+
+#pack_detail_card .ratings {
+  cursor: pointer;
+}
+
+/* package price */
+
+#pack_detail_card hr {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#pack_detail_card .price-field {
+  font-family: sans-serif;
+  color: #f7472e;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.custom-column-header {
+  background-color: #f7472e !important;
+  padding-top: 10px !important;
+  color: white !important;
+  border-radius: 3px;
+}
+#pack_detail_card small {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+#gst_text {
+  font-size: 10px !important;
+  color: black;
+}
+#corona_rate mark {
+  background-color: #27413a;
+  color: #d1e6d0;
+  border-radius: 10px;
+  padding: 3px 10px 3px 10px;
+  font-size: 13px;
+}
+
+/*footer*/
+.col_white_amrc {
+  color: #fff;
+}
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  color: #ccc;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+.mb10 {
+  padding-bottom: 15px;
+}
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+.footer_ul_amrc li a {
+  color: #ccc;
+}
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.fleft {
+  float: left;
+}
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.footer_ul2_amrc li p {
+  display: table;
+}
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.social_footer_ul li a {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/*Bottom Cards */
+
+/*FAQ content */
+
+.tab-content {
+  .card {
+    border-radius: 0;
+  }
+
+  .card-header {
+    padding: 15px 16px;
+    border-radius: 0;
+    background-color: #f6f6f6;
+
+    h5 {
+      margin: 0;
+
+      button {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.87);
+        text-align: left;
+        white-space: normal;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:hover:active {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .card-body {
+    p {
+      color: #616161;
+
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tab-content .tab-pane {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+// BORDER FIX
+.accordion {
+  > .card {
+    &:not(:first-child) {
+      border-top: 0;
+    }
+  }
+}
+
+.collapse.show {
+  .card-body {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+}
+
+/*FAQ content  End*/
+
+/*Calander */
+.fc-time {
+  display: none;
+}
+.fc th {
+  text-align: center;
+  background-color: #f7472e;
+  color: white;
+}
+.fc-content {
+  cursor: pointer;
+  font-size: 0.9em;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .fc-content {
+    cursor: pointer;
+    font-size: 0.6em;
+    text-align: center;
+  }
+}
+.fc-day-grid-container.fc-scroller {
+  height: auto !important;
+  overflow-y: auto;
+}
+
+#my_calander .fc-center h2 {
+  font-size: 12px !important;
+}
+#my_calander .fc td, .fc th {
+  font-size: 12px;
+}
+#my_calander .fc button {
+  height: 2em;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .fc-center h2 {
+    font-size: 12px !important;
+  }
+  #my_calander .fc td, .fc th {
+    font-size: 10px;
+  }
+  
+}
+
+.package-btn {
+  color: #f7472e;
+  border: 2px solid #f7472e;
+  font-weight: 600;
+}
+.package-btn:hover {
+  background-color: #f7472e !important;
+  color: white;
+}
+#my_calander .modal-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+#my_calander  .btn-danger{
+  font-size: 10px !important;
+  width: 100px;
+  padding-top: 10px;
+  font-weight: 100;
+  padding-bottom: 10px;
+  color: #fff;
+  border: 1px solid #f7472e;
+  background-color: #f7472e;
+}
+@media screen and (max-width: 992px) {
+  #my_calander .modal-title{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #my_calander  .btn-danger{
+    font-size: 10px !important;
+    width: 100px;
+  }
+  #my_calander .fc button {
+    height: 1.5em;
+    font-size: 12px;
+  }
+}
+
+
+/*  addons */
+
+#main_btn_book {
+  display: block;
+  color: white;
+  background: #f7472e;
+  border: none;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#main_calender_with_dates {
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+.add-on-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#mainprice_without_addOn {
+  border: none;
+  background-color: #f7472e;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+#package-button-book-mini {
+  display: none;
+}
+#package-button-dates-mini {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #package-button-book-mini {
+    display: block;
+  }
+  #package-button-dates-mini {
+    display: block;
+  }
+  #package-button-book-desktop {
+    display: none;
+  }
+  #package-button-dates-desktop {
+    display: none;
+  }
+}
+
+.package-detail .nav-item {
+  background-color: #fff;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.package-detail .nav-item .nav-link {
+  color: black !important;
+  border: 1px solid #b5b5b5;
+  border-radius: 3px;
+}
+
+.package-detail .nav-item .nav-link:hover {
+  color: #f7472e !important;
+  border: 1px solid #f7472e;
+  border-radius: 3px;
+}
+
+.package-detail .nav-item .active {
+  background-color: #f7472e;
+  border: #f7472e;
+  color: #fff !important;
+}
+
+.package-detail .nav-item .active:hover {
+  background-color: #f7472e;
+  border: #f7472e;
+  color: #fff !important;
+}
+.package-detail .nav-item .nav-link .active {
+  background-color: #f7472e;
+}
+
+#OVERVIEW-ITINERARY .list-unstyled li:hover {
+  color: black;
+  cursor: context-menu;
+}
+
+.private-policy {
+  text-align: center !important;
+  line-height: 15px;
+  color: #9197a3;
+  font-size: 12px;
+  font-family: -apple-system, helvetica, arial, sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 5px;
+}
+
+#after_scroll_nav_bar {
+  display: none;
+  padding: 0px;
+}
+@media screen and (max-width: 992px) {
+  #after_scroll_nav_bar {
+    display: none;
+    overflow-x: scroll;
+    padding: 0px;
+  }
+}
+
+#custom-content-below-tab {
+  border-bottom: none;
+  display: inline-flex;
+}
+
+#custom-content-below-tab1 {
+  border-bottom: none;
+  display: inline-flex;
+}
+
+#after_scroll_nav_bar .nav-item {
+  background-color: #fff;
+  font-weight: 700;
+  margin-right: 7px;
+  line-height: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #after_scroll_nav_bar .nav-item {
+    font-size: 10px;
+  }
+}
+
+#header_price {
+  color: #f7472e;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.top_price {
+  color: #f7472e;
+  font-family: sans-serif;
+}
+
+.top_price small {
+  font-size: 10px;
+  color: black;
+  font-family: Poppins;
+}
+
+.top_book_btn button {
+  border: 1px solid #f7472e;
+  color: white !important;
+  background-color: #f7472e;
+  height: 45px;
+  font-weight: 600;
+  height: 45px;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+
+.top_book_btn button:hover {
+  color: #f7472e !important;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .top_offer {
+    display: none;
+  }
+  .top_price {
+    display: none;
+  }
+
+  .top_book_btn {
+    display: none;
+  }
+}
+
+#after_scroll_nav_bar .nav-item .nav-link:hover {
+  color: #f7472e;
+  border: 1px solid #f7472e;
+  border-radius: 3px;
+}
+#after_scroll_nav_bar .nav-item .active {
+  background-color: #f7472e;
+  border: #f7472e;
+  color: #ffffff !important;
+}
+#after_scroll_nav_bar .nav-item .nav-link {
+  /* color: black !important; */
+  /*border: 1px solid #b5b5b5;*/
+  border-radius: 3px;
+  width: max-content;
+}
+
+@media screen and (max-width: 992px) {
+  #after_scroll_nav_bar .nav-item .nav-link {
+    line-height: 20px;
+    width: max-content;
+  }
+}
+
+.Trek-detail1 {
+  position: relative;
+}
+#have_any_quary_box {
+  display: none;
+  float: right;
+  position: sticky;
+  top: 80px;
+}
+
+//Bottom nav bar
+.navbarbottom {
+  display: none;
+  font-family: "Poppins";
+}
+
+@media screen and (max-width: 992px) {
+  .navbarbottom {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    font-family: "Poppins";
+    width: 100%;
+    z-index: 9;
+    padding-left: 5px;
+    line-height: 50px;
+    display: flex;
+    //justify-content: center;
+    padding-left: 20px;
+    align-items: center;
+    box-shadow: 0px -1px 5px grey;
+  }
+
+  .navbarbottom .package-btn {
+    float: left;
+    display: block;
+    color: white;
+    font-family: "Poppins";
+    background-color: #f7472e;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 9px;
+    width: 70px;
+    line-height: 20px;
+  }
+  .navbarbottom a {
+    font-family: sans-serif;
+  }
+
+  .navbarbottom a:hover {
+    //background: #f7472e;
+    color: white;
+  }
+
+  .navbarbottom a.active {
+    background-color: #f7472e;
+    color: white;
+  }
+
+  #bottom_price {
+    font-weight: 700;
+  }
+}
+
+#detailed-itinerary {
+  line-height: 20px;
+}
+

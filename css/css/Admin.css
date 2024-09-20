@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@media only screen and (max-width: 900px) {
+    html {
+        min-width: 1000px;    
+    }
+}
+body{
+    margin: 0px;
+    border: 0px;
+    font-family: Poppins;
+}
+
+
+#header{
+    width: Auto;
+    height:70px;
+    font-family: Poppins;
+    color:black;
+    border-bottom-style: solid;
+    background-color: #fff;
+    vertical-align: middle
+}
+#sidebar{
+    padding: inherit;
+    height: 90%;
+    overflow-y: scroll;
+    border-left-style: solid;
+    background-color: #314a72;
+    color: black;
+    float: left;
+    z-index: 1;
+    font-family: Poppins;
+}
+
+#sidebar::-webkit-scrollbar {  display: none; } 
+#sidebar::-webkit-scrollbar { width: 0 !important }
+@media only screen and (max-width: 992px) {
+    #sidebar{
+        padding: inherit;
+        height:Auto;
+        border-left-style: solid;
+        background-color:#314a72;
+        color:black;
+        float:left;
+        z-index: 1; 
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+    }
+}
+
+#data{
+    padding-left: inherit;
+    margin-bottom: 20px;
+    font-family: Poppins;
+}
+
+.btn{
+    width: 100%;
+    height:70px;
+    background-color:#314a72;
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 10px;
+    line-height: 1.42857143; 
+    font-family: Poppins;
+
+}
+
+.btn:hover{
+    background-color: #699ef4;
+    color: white;
+
+}
+
+.btn_sale_data{
+    width: max-content;
+    min-width: 100px;
+    border: 1px solid transparent;
+    height: auto;
+    min-height: 30px;
+    background-color: #314a72;
+    display: inline-block;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: Poppins;
+}
+.btn_sale_data:hover{
+
+    background-color:green;
+    border-radius: 8px;
+}
+
+#Deshboard_message{
+    margin-top: 5px;
+}
+
+.box{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px #595454;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+}
+
+#Account_Management{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px #595454;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+
+}
+
+#Booking_Management{
+
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+
+}
+#Trek_Management{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+
+}
+#Page_Management{
+
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+#Blog_Artical_Menagement{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+#header_footer_Menagement{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+
+#Inventory{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+#Operation{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+
+#Sales_management{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+    font-family: Poppins;
+}
+#Trek_Coordinator_management{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+
+#Vendor_management{
+    margin-top: 5px;
+    margin-left: 12px;
+    display: none;
+}
+
+@media only screen and (max-width: 968px) {
+    #Deshboard_message{
+        padding-top: 60px;
+    }
+
+    #Account_Management{
+        padding-top: 60px;
+    }
+
+    #Booking_Management{
+        padding-top: 60px;
+    }
+    #Trek_Management{
+        padding-top: 60px;
+    }
+    #Page_Management{
+        padding-top: 60px;
+    }
+    #Blog_Artical_Menagement{
+        padding-top: 60px;
+    }
+    #header_footer_Menagement{
+        padding-top: 60px;
+    }
+
+    #Inventory{
+        padding-top: 60px;
+    }
+    #Operation{
+        padding-top: 60px;
+    }
+
+    #Sales_menagement{
+        padding-top: 60px;
+    }
+    #Trek_Coordinator_menagement{
+        padding-top: 60px;
+    }
+
+    #Vendor_menagement{
+        padding-top: 60px;
+    }
+
+}
+
+table{
+    width: auto;
+    height:auto;
+    overflow: scroll;
+    font-size: 12px;
+    border-collapse: collapse;
+    padding: 2px;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    text-align:center;
+
+}
+table tr td{
+    padding: 2px;
+    font-family: Poppins;
+}    
+
+table th {
+    max-width: 300px;
+    text-align: left;
+    height: 20px;
+    padding: 2px;
+    background-color: moccasin;
+    color: black;   
+    font-family: Poppins;
+}
+table tr:nth-child(even) {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.form-control{
+    font-family: Poppins;
+}
+.form-group{
+    font-family: Poppins;
+}
+.required{
+    display: block;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    margin-top: 5px;
+    font-family: Poppins;
+}
+
+.btn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+#dbtn  {
+    background-color: #314a72;
+}
+#dbtn:focus {     
+    background-color:#699ef4;    
+}
+#dbtn:hover {     
+    background-color:#699ef4;    
+}
+
+.top_heading_bar{
+    background-color:black;
+    color:white;
+    width:100%;
+    height:auto;
+    margin-top: 10px;
+    padding: 1px;
+    margin-bottom: 10px;
+    font-family: Poppins;
+}
+.top_heading_bar  h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight:700;
+}
+
+#id_confrmdiv
+{
+    display: none;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 400px;
+    height:100px;
+    left: 50%;
+    margin-left: -150px;
+    padding: 6px 8px 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#id_confrmdiv button {
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 2px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+    margin: 20px;
+}
+#id_confrmdiv .button:hover
+{
+    background-color: #ddd;
+}
+#confirmBox .message
+{
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+
+.lable1{
+    float:left;margin-top: 10px;margin-right: 4px;  font-family: Poppins;
+}
+
+.lable2{
+    float:left;margin-top: 10px;margin-right: 4px;margin-left: 5px;  font-family: Poppins;
+}
+
+
+
+/*-----------------notification belll-----------------*/
+.notification {
+    background-image: url("notification.png");
+    color: white;
+    height:30px;
+    background-color: #ffffff;
+    border: none;
+    width:30px;
+    position: relative;
+    font-family: Poppins;
+    border-radius: 50%;
+    display: inline-block;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+.notification:hover {
+    opacity: 0.5;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.togglenoticfication{
+    height:500px;
+    width:300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Poppins;
+
+}
+/*-----------------notification belll  End----------------*/
+
+
+.Supply-vendor-input{
+    margin-bottom: 10px;
+    float:left;
+    width: 25%;
+}
+
+.Voucher-input{
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.Voucher-input input{
+
+    width: 90%;
+}
+
+/*Voucher for list*/
+#VoucherListSearchInput {
+    background-image: url('../Admin_images/searchicon.png');
+    background-position: 5px 6px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 12px;
+    padding: 6px 10px 6px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#myULVoucher {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myULVoucher li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block
+}
+
+#myULVoucher li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+#mainDivForVoucherList{
+    height:80%;
+    overflow-y:   auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.budgetForToggleButton{
+    width: 100%;
+    background: darkslategray;
+    border-color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+table tr th{
+    text-align: center;
+    font-family: Poppins;
+}
+
+

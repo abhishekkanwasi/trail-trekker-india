@@ -1,0 +1,316 @@
+
+
+/* start popup */
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  width:386px;
+  height:495px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius:8px;
+  position: relative;
+  transition: all 5s ease-in-out;
+  margin-top:120px;
+  margin-left:520px;
+  padding-top:35px;
+  padding-bottom:10px;
+  padding-left:18px;
+  padding-right:20px;
+}
+
+.popup-mobile{
+	
+	display: none;
+}
+
+@media (max-width:767px) {
+	
+.popup{
+	display: none;
+	
+	
+}
+
+.popup-mobile{
+	width:300px;
+    height:460px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius:8px;
+	position: relative;
+	transition: all 5s ease-in-out;
+	padding-top:5px;
+	padding-left:18px;
+	padding-right:20px;
+	display: block;
+	margin:60px 30px 10px 30px;
+}
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  transition: all 200ms;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.popup .close:hover {
+  color: #fff;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+/* end popup */
+
+
+/* start request-quote-Popup */
+
+.contactFrm-popup h4 {
+    font-size: .6em;
+    color: #000;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    text-align: center;
+}
+.contactFrm-popup input[type="text"], .contactFrm-popup input[type="email"] {
+    width: 100%;
+    color: #000;
+    background: #fff;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+	padding: 12px 20px;
+	height:50px;
+    width: 350px;
+	border: 0px;
+	box-shadow: 0 0 6px 1.5px rgba(0, 0, 0, 0.3);
+	border-radius:3px;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: .6em;
+}
+.contactFrm-popup textarea {
+	
+    resize: none;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 2px;
+	padding: 12px 20px;
+	height:50px;
+    width: 350px;
+	border: 0px;
+	box-shadow: 0 0 6px 1.5px rgba(0, 0, 0, 0.3);
+	border-radius:3px;
+    min-height: 6em;
+    -webkit-appearance: none;
+}
+.contactFrm-popup input[type="submit"], .contactFrm-popup input[type="reset"] {
+	outline: none;
+    color: #000;
+    padding: 0.5em 0;
+    font-size: 20px;
+	text-transform: uppercase;
+	font-weight:600;
+    margin: 1em 0 0 0;
+	border-radius:30px;
+	border:0px;
+	font-weight: bold;
+	box-shadow: 0 0 2px .5px rgba(226, 176, 7, 10);
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #f7d50f;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 100%;
+    cursor: pointer;
+}
+.contactFrm-popup input[type="submit"]:hover {
+    background: #228B22;
+    color: #fff;
+}
+p.statusMsg{font-size:18px;}
+p.succdiv{color: #008000;}
+p.errordiv{color:#E80000;}
+
+
+
+@media (max-width:768px) {
+	.contactFrm-popup input[type="text"], .contactFrm-popup input[type="email"] {
+    width: 100%;
+    color: #000;
+    background: #fff;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+	padding: 12px 20px;
+	height:50px;
+    width: 265px;
+	border: 0px;
+	box-shadow: 0 0 6px 1.5px rgba(0, 0, 0, 0.3);
+	border-radius:3px;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: .6em;
+}
+.contactFrm-popup textarea {
+	
+    resize: none;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+	padding: 12px 20px;
+	height:50px;
+    width: 265px;
+	border: 0px;
+	box-shadow: 0 0 6px 1.5px rgba(0, 0, 0, 0.3);
+	border-radius:3px;
+    min-height: 6em;
+    -webkit-appearance: none;
+}
+.contactFrm-popup input[type="submit"], .contactFrm-popup input[type="reset"] {
+	outline: none;
+    color: #000;
+    padding: 0.5em 0;
+    font-size: 14px;
+	text-transform: uppercase;
+	font-weight:600;
+    margin: 1em 0 0 0;
+	border-radius:30px;
+	border:0px;
+	box-shadow: 0 0 2px .5px rgba(226, 176, 7, 10);
+    -webkit-appearance: none;
+    background: #f7d50f;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 100%;
+    cursor: pointer;
+}
+.contactFrm-popup input[type="submit"]:hover {
+    background: #228B22;
+    color: #fff;
+}
+p.statusMsg{font-size:18px;}
+p.succdiv{color: #008000;}
+p.errordiv{color:#E80000;}
+
+	
+}
+
+@media (max-width:468px) {
+	.contactFrm-popup input[type="text"], .contactFrm-popup input[type="email"] {
+    width: 100%;
+    color: #000;
+    background: #fff;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+	padding: 12px 20px;
+	height:50px;
+    width: 265px;
+	border: 0px;
+	box-shadow: 0 0 6px 1.5px rgba(0, 0, 0, 0.3);
+	border-radius:3px;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: .6em;
+}
+.contactFrm-popup textarea {
+	
+    resize: none;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+	padding: 12px 20px;
+	height:50px;
+    width: 265px;
+	border: 0px;
+	box-shadow: 0 0 6px 1.5px rgba(0, 0, 0, 0.3);
+	border-radius:3px;
+    min-height: 6em;
+    -webkit-appearance: none;
+}
+.contactFrm-popup input[type="submit"], .contactFrm-popup input[type="reset"] {
+	outline: none;
+    color: #000;
+    padding: 0.5em 0;
+    font-size: 14px;
+	text-transform: uppercase;
+	font-weight:600;
+    margin: 1em 0 0 0;
+	border-radius:30px;
+	border:0px;
+	box-shadow: 0 0 2px .5px rgba(226, 176, 7, 10);
+    -webkit-appearance: none;
+    background: #f7d50f;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 100%;
+    cursor: pointer;
+}
+.contactFrm-popup input[type="submit"]:hover {
+    background: #228B22;
+    color: #fff;
+}
+p.statusMsg{font-size:18px;}
+p.succdiv{color: #008000;}
+p.errordiv{color:#E80000;}
+
+	
+}
+
+/* end request-quote-Popup */
